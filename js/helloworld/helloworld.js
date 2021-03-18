@@ -1,3 +1,6 @@
+#!/usr/bin/env gjs
+
+
 const Gtk = imports.gi.Gtk;
 
 
