@@ -1,0 +1,11 @@
+[package]
+name = "gtk-rs-example"
+version = "0.1.0"
+authors = ["ValleyKnight <ValleyKnight@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gio = "0.9.0"
+gtk = "0.9.0"
