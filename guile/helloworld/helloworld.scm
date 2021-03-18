@@ -1,3 +1,7 @@
+#!/usr/bin/env guile
+!#
+
+
 (use-modules (gi))
 
 (use-typelibs
