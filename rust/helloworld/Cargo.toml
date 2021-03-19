@@ -1,5 +1,5 @@
 [package]
-name = "gtk-rs-example"
+name = "helloworld"
 version = "0.1.0"
 authors = ["ValleyKnight <ValleyKnight@protonmail.com>"]
 edition = "2018"
