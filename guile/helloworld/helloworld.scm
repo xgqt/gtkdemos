@@ -5,8 +5,8 @@
 (use-modules (gi))
 
 (use-typelibs
- (("Gio" "2.0") #:select (activate run))
  ("Gtk" "3.0")
+ (("Gio" "2.0") #:select (activate run))
  )
 
 
