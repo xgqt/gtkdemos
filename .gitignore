@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # General
 *.exe
 *.zip*
@@ -6,7 +9,9 @@ compiled/
 
 # Backups
 *~
+,*
 .\#*
+.~lock.*
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-z]
@@ -19,6 +24,14 @@ compiled/
 build/
 compile_commands.json
 
+# IDEs
+.idea/
+.vs/
+.vscode/
+
 # Rust
 Cargo.lock
 target/
+
+# OCaml
+_build/
