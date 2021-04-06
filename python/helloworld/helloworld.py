@@ -12,7 +12,7 @@ class MyWindow(Gtk.Window):
 
     def __init__(self):
         Gtk.Window.__init__(self, title="Hello World")
-        Gtk.Window.set_default_size(self, 640, 480)
+        Gtk.Window.set_default_size(self, 300, 300)
 
         self.box = Gtk.Box(spacing=6)
         self.add(self.box)

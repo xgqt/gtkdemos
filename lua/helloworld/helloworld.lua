@@ -18,7 +18,7 @@ local function show_app()
       default_width = 300,
       default_height = 300,
       application = app,
-      title = "Hello World!",
+      title = "Hello World",
 
       child = Gtk.ToolButton {
          id = "hello_world",

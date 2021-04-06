@@ -14,7 +14,7 @@
   (let
       (
        (window (make <GtkApplicationWindow> #:application app))
-       (button (make <GtkButton> #:label "Hello World"))
+       (button (make <GtkButton> #:label "Hello World!"))
        )
     (connect button clicked (lambda (_) (close window)))
     (add window button)

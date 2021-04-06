@@ -21,7 +21,7 @@ static void on_app_activate ( GApplication * app, gpointer data )
 int main ( int argc, char ** argv )
 {
     GtkApplication * app = gtk_application_new(
-        "org.gtkmm.example.HelloWorld",
+        "org.gtk.HelloWorld",
         G_APPLICATION_FLAGS_NONE
     );
 

@@ -2,5 +2,5 @@
 
 
 zenity --info \
-       --title="Hello World!" \
+       --title="Hello World" \
        --text="Hello World!"
