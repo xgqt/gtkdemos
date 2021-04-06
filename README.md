@@ -7,6 +7,11 @@ Some demonstation programs in different programming languages
 using the GTK window toolkit.
 
 
+## Resources
+
+- [Wikipedia: List of language bindings for GTK](https://en.wikipedia.org/wiki/List_of_language_bindings_for_GTK)
+
+
 ## License
 
 CC0 1.0 Universal
