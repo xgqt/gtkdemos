@@ -1,6 +1,13 @@
 #!/usr/bin/env lua
 
 
+-- requires the lgi library:
+--   https://github.com/pavouk/lgi
+
+-- run with:
+--   lua helloworld.lua
+
+
 local lgi = require "lgi"
 local Gtk = lgi.require("Gtk", "3.0")
 local Gio = lgi.Gio

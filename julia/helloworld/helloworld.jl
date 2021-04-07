@@ -1,6 +1,13 @@
 #!/usr/bin/env julia
 
 
+# requires the Gtk library:
+#  https://github.com/JuliaGraphics/Gtk.jl
+
+# run with:
+#  julia helloworld.jl
+
+
 using Gtk
 
 

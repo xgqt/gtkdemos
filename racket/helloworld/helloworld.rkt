@@ -1,6 +1,13 @@
 #!/usr/bin/env racket
 
 
+;; requires the racket/gui library (should come with full distribution):
+;;   https://github.com/racket/gui
+
+;; run with:
+;;   racket helloworld.rkt
+
+
 #lang racket/base
 
 (require racket/gui)

@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 
 
+# requires the pygobject library:
+#   https://gitlab.gnome.org/GNOME/pygobject
+
+# run with:
+#   python helloworld.py
+
+
 import sys
 
 import gi

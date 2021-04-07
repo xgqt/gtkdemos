@@ -1,3 +1,14 @@
+/*
+ * requires the gio & gtk libraries:
+ *   https://github.com/gtk-rs/gio
+ *   https://github.com/gtk-rs/gtk
+ *   (dependencies will be downloaded automatically with cargo)
+ *
+ * run with:
+ *   cargo run
+ */
+
+
 extern crate gio;
 extern crate gtk;
 

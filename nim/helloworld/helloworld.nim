@@ -1,3 +1,10 @@
+# requires the gintro library:
+#   https://github.com/StefanSalewski/gintro
+
+# run with:
+#   nimble build && ./helloworld
+
+
 import gintro/[gtk, gobject, gio]
 
 

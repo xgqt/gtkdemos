@@ -1,3 +1,10 @@
+/*
+ * run with:
+ *   valac --pkg gtk+-3.0 helloworld.vala && ./helloworld
+ *   (or valac-0.48 instead of vala)
+ */
+
+
 public class HelloWorld : Gtk.Application
 {
     protected override void activate ( )

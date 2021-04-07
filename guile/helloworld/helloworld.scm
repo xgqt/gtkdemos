@@ -2,6 +2,13 @@
 !#
 
 
+;; requires the guile-gi library:
+;;   https://github.com/spk121/guile-gi
+
+;; run with:
+;;   guile helloworld.scm
+
+
 (use-modules (gi))
 
 (use-typelibs

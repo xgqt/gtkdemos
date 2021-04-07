@@ -1,6 +1,13 @@
 #!/usr/bin/env gjs
 
 
+// requires the gjs library:
+//   https://gitlab.gnome.org/GNOME/gjs
+
+// run with:
+//   gjs helloworld.scm
+
+
 const Gtk = imports.gi.Gtk;
 
 
