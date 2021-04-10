@@ -1,0 +1,8 @@
+# -*- conf -*-
+
+
+# Executables
+/bin/
+
+# Object files
+/obj/
