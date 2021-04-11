@@ -12,6 +12,11 @@ using the GTK window toolkit.
 - [Wikipedia: List of language bindings for GTK](https://en.wikipedia.org/wiki/List_of_language_bindings_for_GTK)
 
 
+## Contributions
+
+If your new program (that you wnat to add) runs on GTKx commit it to the GTKx folder, where x is the major version of GTK your are running.
+
+
 ## License
 
 CC0 1.0 Universal
