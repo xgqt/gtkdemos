@@ -4,8 +4,6 @@
 -- run with:
 --   gprbuild -P helloworld.gpr && ./bin/main
 
--- FIXME: Clicking the button doesn't close the app
-
 
 with Gdk.Event;     use Gdk.Event;
 with Gtk.Button;    use Gtk.Button;
@@ -13,11 +11,12 @@ with Gtk.Main;
 with Gtk.Widget;    use Gtk.Widget;
 with Gtk.Window;    use Gtk.Window;
 
+with button_click;  use button_click;
+
 
 procedure Main is
 
    Win : Gtk_Window;
-   Btn : Gtk_Button;
 
    function Delete_Event_Cb
      (Self  : access Gtk_Widget_Record'Class;
@@ -38,7 +37,8 @@ begin
    Win.Set_Title ("Hello World");
    Win.Set_Default_Size (300, 300);
 
-   Gtk_New (Btn, "Hello World!");
+   Gtk_New (button_click.Btn, "Hello World!");
+   On_Clicked(button_click.Btn, button_clicked'Access);
    Win.Add (Btn);
 
    Win.On_Delete_Event (Delete_Event_Cb'Unrestricted_Access);
