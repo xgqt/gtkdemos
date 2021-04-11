@@ -3,7 +3,7 @@
 
 ## About
 
-Some demonstation programs in different programming languages
+Some demonstration programs in different programming languages
 using the GTK window toolkit.
 
 
@@ -14,7 +14,7 @@ using the GTK window toolkit.
 
 ## Contributions
 
-If your new program (that you wnat to add) runs on GTKx commit it to the GTKx folder, where x is the major version of GTK your are running.
+If your new program (that you want to add) runs on GTKx commit it to the GTKx folder, where x is the major version of GTK your are running.
 
 
 ## License
