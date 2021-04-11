@@ -1,3 +1,3 @@
 # GTK4
 
-Those are the sources of desmos for GTK version 4.
+Here are the sources of demos for GTK version 4.

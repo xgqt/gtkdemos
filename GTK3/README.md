@@ -1,3 +1,3 @@
 # GTK3
 
-Those are the sources of desmos for GTK version 3.
+Here are the sources of demos for GTK version 3.
