@@ -15,10 +15,16 @@ let app = new Gtk.Application({ application_id: "org.gtk.HelloWorld" });
 
 app.connect(
     "activate", () => {
-        let win = new Gtk.ApplicationWindow({ application: app });
-        let btn = new Gtk.Button({ label: "Hello, World!" });
+        let win = new Gtk.ApplicationWindow({
+            application: app,
+            title: "Hello World",
+            default_height: 300,
+            default_width: 300
+        });
 
+        let btn = new Gtk.Button({ label: "Hello World!" });
         btn.connect("clicked", () => { win.close(); });
+
         win.add(btn);
         win.show_all();
     }
