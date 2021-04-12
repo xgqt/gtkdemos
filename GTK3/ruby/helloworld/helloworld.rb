@@ -1,6 +1,13 @@
 #!/usr/bin/env ruby
 
 
+# requires the gtk3 library:
+#   https://github.com/ruby-gnome/ruby-gnome
+
+# run with:
+#   ruby helloworld.rb
+
+
 require "gtk3"
 
 
