@@ -20,7 +20,13 @@
 (define (on-activation app)
   (let
       (
-       (window (make <GtkApplicationWindow> #:application app))
+       (window (make <GtkWindow>
+                 #:application app
+                 #:title "Hello World"
+                 #:height-request 300
+                 #:width-request 300
+                 )
+               )
        (button (make <GtkButton> #:label "Hello World!"))
        )
     (connect button clicked (lambda (_) (close window)))
