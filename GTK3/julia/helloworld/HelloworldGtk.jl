@@ -5,14 +5,14 @@
 #  https://github.com/JuliaGraphics/Gtk.jl
 
 # run with:
-#  julia helloworld.jl
+#  julia HelloworldGtk.jl
 
 
 using Gtk
 
 
 function on_button_clicked(w)
-  exit()
+    exit()
 end
 
 

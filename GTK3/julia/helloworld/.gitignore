@@ -1,0 +1,19 @@
+# -*- conf -*-
+
+
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+
+.juliahistory
+
+Manifest.toml
+
+deps/build.log
+deps/deps.jl
+deps/downloads/
+deps/src/
+deps/usr/
+
+docs/build/
+docs/site/
